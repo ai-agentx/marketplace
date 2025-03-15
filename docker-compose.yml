@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9091:9091"
+    environment:
+      - DEBUG=true
+      - HOST=0.0.0.0
+      - PORT=9091
+      - BASE_URL=http://localhost:9091
+      - API_KEYS={"your_api_key":{"user_id":"your_user","role":"admin"}}
+    volumes:
+      - ./app:/app
+    restart: unless-stopped
