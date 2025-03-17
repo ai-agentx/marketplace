@@ -16,7 +16,7 @@
     </main>
     <footer class="bg-white shadow-inner p-4 mt-8">
       <div class="container mx-auto text-center text-gray-500">
-        <p>© 2025 Agent Marketplace. All rights reserved.</p>
+        <p>© 2025 AgentX Marketplace. All rights reserved.</p>
       </div>
     </footer>
   </div>

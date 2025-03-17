@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-white shadow rounded-lg p-6 mb-6">
-      <h1 class="text-2xl font-bold text-gray-800 mb-2">Agent Marketplace Dashboard</h1>
+      <h1 class="text-2xl font-bold text-gray-800 mb-2">AgentX Marketplace Dashboard</h1>
       <p class="text-gray-600">
         Discover and interact with AI agents for a variety of tasks and capabilities.
       </p>

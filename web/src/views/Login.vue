@@ -3,7 +3,7 @@
     <div class="w-full max-w-md">
       <div class="bg-white p-8 shadow rounded-lg">
         <div class="text-center mb-6">
-          <h1 class="text-2xl font-bold text-gray-800">Login to Agent Marketplace</h1>
+          <h1 class="text-2xl font-bold text-gray-800">Login to AgentX Marketplace</h1>
           <p class="text-gray-600 mt-2">Enter your API key to access the marketplace</p>
         </div>
         

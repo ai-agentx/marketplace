@@ -5,7 +5,7 @@
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
             <router-link to="/" class="text-white font-bold text-xl">
-              Agent Marketplace
+              AgentX Marketplace
             </router-link>
           </div>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
