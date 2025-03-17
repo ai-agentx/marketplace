@@ -2,22 +2,22 @@
 
 **marketplace** provides an agent marketplace for the agent framework.
 
-## Features
+## Server
 
-## Installation
+### Clone
 
-1. Clone repository:
-   ```
-   git clone https://github.com/ai-agentx/marketplace.git
-   cd marketplace
-   ```
+```base
+git clone https://github.com/ai-agentx/marketplace.git
+cd server
+```
 
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+### Install
 
-## Usage
+```bash
+pip install -r requirements.txt
+```
+
+### Run
 
 ```bash
 python marketplace.py
@@ -25,7 +25,7 @@ python marketplace.py
 
 The marketplace will be available at http://localhost:9091 by default.
 
-### API Endpoints
+### API
 
 #### System
 
@@ -44,9 +44,41 @@ The marketplace will be available at http://localhost:9091 by default.
 - `DELETE /agents/{agent_id}` - Delete an agent from the marketplace
 - `PUT /agents/{agent_id}` - Update an existing agent
 
-### Docker Deployment
+### Docker
 
+```bash
+docker-compose up -d
 ```
+
+## Web
+
+### Clone
+
+```bash
+git clone https://github.com/ai-agentx/marketplace.git
+cd web
+```
+
+### Install
+
+```bash
+npm install
+```
+
+### Run
+
+```bash
+npm run serve
+```
+
+### Access
+
+- Web: http://localhost
+- API: http://localhost:9091
+
+### Docker
+
+```bash
 docker-compose up -d
 ```
 
